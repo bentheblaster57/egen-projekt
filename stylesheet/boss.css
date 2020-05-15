@@ -1,0 +1,42 @@
+body {
+	background-color: #1c1c1c;
+}
+header p {
+	font-size: 5vh;
+	color: whitesmoke;
+	text-align: center;
+}
+header {
+	background-color: #1c1c1c;
+}
+ul {
+	color: whitesmoke;
+	font-size: 2em;
+	background-color: #2b2b2b;
+	margin-top: 22vw;
+}
+main {
+	padding: 3vw;
+}
+main p {
+	margin-top: 15vh;
+	color: whitesmoke;
+
+}
+footer p {
+	padding-top: 16vw;
+	color: white;
+}
+#txt {
+	color: #a1a1a1;
+	font-size: 5vh;
+	font-weight: bold;
+	padding-left: 10vw;
+}
+#regret {
+	margin-top: 3.5vw;
+	margin-left: 31vw;
+	color: violet;
+	font-size: 35px;
+	background-color: whitesmoke;
+}

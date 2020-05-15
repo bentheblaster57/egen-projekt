@@ -1,0 +1,55 @@
+body {
+	background-image: url(../bilder/ramen.jpg);
+	background-size: cover;
+}
+header p {
+	text-align: center;
+	padding-top: 5vw;
+	font-size: 5em;
+	color: red;
+}
+ul {
+	color: whitesmoke;
+	font-size: 2em;
+	background-color: chocolate;
+}
+main {
+	padding: 3vw;
+}
+footer p {
+	padding-top: 16vw;
+	color: white;
+}
+div {
+	color: blue;
+	text-align: center;
+	font-size: 5em;
+}
+#gold {
+	background-color: goldenrod;
+	width: 20vw;
+	height: 20vh;
+	font-size: 6em;
+}
+#levels {
+	float: right;
+
+	width: 20vw;
+	height: 20vh;
+	font-size: 5em;
+	animation-name: flashing;
+
+	animation-duration: 500ms;
+	animation-iteration-count: infinite;
+}
+@keyframes flashing {
+	33% {
+		background-color: red;
+	}
+	66% {
+		background-color: blue;
+	}
+	100% {
+		background-color: green;
+	}
+}
